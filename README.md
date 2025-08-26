@@ -1,5 +1,5 @@
 # codsoft
-Here’s a **README.md** file tailored for your GitHub repository based on the files you uploaded (portfolio, calculator, and landing page):
+
 
 ---
 
@@ -91,9 +91,4 @@ This repository contains a collection of my web development projects built with 
 
 ---
 
-⚡ *Feel free to fork, star ⭐, and suggest improvements!*
-
----
-
-Do you want me to generate the **actual `README.md` file** (ready to upload), or just keep this as text so you can copy-paste?
 
