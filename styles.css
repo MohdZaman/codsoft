@@ -1,0 +1,128 @@
+/* Basic Reset and Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #2d2828;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header & Navigation */
+.header {
+    background-color: #353232;
+    color: rgb(234, 212, 212);
+    padding: 1em 0;
+    text-align: center;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #5a7d9a;
+    color: white;
+    text-align: center;
+    padding: 4em 0;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin: 0 0 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.cta-button {
+    background-color: #ef8787;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ef8787;
+}
+
+/* Features Section */
+.features {
+    padding: 4em 0;
+    text-align: center;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+}
+
+.feature-item {
+    flex: 1; /* Makes items take up equal space */
+    background-color: white;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Call-to-Action Section */
+.cta-section {
+    background-color: #2f2a2a;
+    color: white;
+    text-align: center;
+    padding: 4em 0;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #2f2a2a;
+    color: #bbb;
+}
+
+/* Basic Responsiveness */
+@media (max-width: 768px) {
+    .header .container {
+        flex-direction: column;
+    }
+
+    .nav ul {
+        justify-content: center;
+        padding-top: 10px;
+    }
+}

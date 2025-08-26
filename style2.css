@@ -1,0 +1,60 @@
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+.display {
+    background-color: #2d2929;
+    color: rgb(240, 221, 221);
+    font-size: 2em;
+    padding: 20px;
+    text-align: right;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 10px;
+}
+
+.buttons button {
+    padding: 20px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    background-color:rgb(165, 158, 158);
+    border-radius: 5px;
+}
+
+.buttons button:hover {
+    background-color: #d4d4d4;
+}
+
+.operator {
+    background-color:rgb(236, 188, 236);
+    color: white;
+}
+
+.equals {
+    background-color: #4a90e2;
+    color: white;
+}
+
+.clear {
+    grid-column: span 1;
+    background-color: #d9534f;
+    color: white;
+}
+
+/* Adjusting the zero button to span two columns */
+.zero {
+    grid-column: span 2;
+}
