@@ -63,7 +63,7 @@ This repository contains a collection of my web development projects built with 
 
 ### Portfolio
 
-![Portfolio Screenshot](mine.jpg)
+![Portfolio Screenshot](port.png)
 
 ### Calculator
 
