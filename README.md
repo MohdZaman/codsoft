@@ -53,7 +53,7 @@ This repository contains a collection of my web development projects built with 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/MohdZaman/codsoft.git
    ```
 2. Open any project file (`index.html`, `index2.html`, `index3.html`) in your browser.
 
